@@ -1,0 +1,581 @@
+[33m[nodemon] 3.1.14[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node src/server.js`[39m
+◇ injected env (2) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+🚀 Server running at http://localhost:5000
+====================================
+Total Records   : 17
+Valid Records   : 17
+Invalid Records : 0
+====================================
+Mapping records with AI...
+Processing 2 batch(es) with AI...
+Batch 1/2 (10 records)
+--------------------------------
+Sending batch to Groq...
+Batch Size: 10
+Batch Data:
+[
+  {
+    created_at: '2026-07-01T00:00:00.000Z',
+    name: 'John Doe',
+    email: 'john.doe@gmail.com',
+    country_code: '',
+    mobile_without_country_code: '9876543210',
+    company: 'GrowEasy Technologies',
+    city: 'Mumbai',
+    state: 'Maharashtra',
+    country: 'India',
+    lead_owner: 'Rahul Sharma',
+    crm_status: 'GOOD_LEAD_FOLLOW_UP',
+    crm_note: 'Interested in pricing. Requested demo next Monday. Alternate Email: john.personal@gmail.com Alternate Mobile: 9123456780',
+    data_source: 'leads_on_demand',
+    possession_time: '',
+    description: ''
+  },
+  {
+    created_at: '2026-07-02T00:00:00.000Z',
+    name: 'Sarah Johnson',
+    email: 'sarah@gmail.com',
+    country_code: '',
+    mobile_without_country_code: '9876543211',
+    company: 'Tech Solutions Pvt Ltd',
+    city: 'Bangalore',
+    state: 'Karnataka',
+    country: 'India',
+    lead_owner: 'Priya Singh',
+    crm_status: 'DID_NOT_CONNECT',
+    crm_note: 'Phone switched off. Call again next week.',
+    data_source: 'meridian_tower',
+    possession_time: '',
+    description: ''
+  },
+  {
+    created_at: '2026-07-03T00:00:00.000Z',
+    name: 'Michael Brown',
+    email: 'michael@gmail.com',
+    country_code: '',
+    mobile_without_country_code: '9876543212',
+    company: 'Cloud Matrix',
+    city: 'Pune',
+    state: 'Maharashtra',
+    country: 'India',
+    lead_owner: 'Amit Kumar',
+    crm_status: 'SALE_DONE',
+    crm_note: 'Customer purchased Premium Plan. Payment received.',
+    data_source: 'eden_park',
+    possession_time: '',
+    description: ''
+  },
+  {
+    created_at: '2026-07-04T00:00:00.000Z',
+    name: 'Emily Davis',
+    email: 'emily@gmail.com',
+    country_code: '',
+    mobile_without_country_code: '9876543213',
+    company: 'Future Labs',
+    city: 'Hyderabad',
+    state: 'Telangana',
+    country: 'India',
+    lead_owner: 'Rahul Sharma',
+    crm_status: 'BAD_LEAD',
+    crm_note: 'Fake lead. Wrong contact number.',
+    data_source: 'varah_swamy',
+    possession_time: '',
+    description: ''
+  },
+  {
+    created_at: '2026-07-05T00:00:00.000Z',
+    name: 'David Wilson',
+    email: 'david@gmail.com',
+    country_code: '',
+    mobile_without_country_code: '9876543214',
+    company: 'NextGen Pvt Ltd',
+    city: 'Delhi',
+    state: 'Delhi',
+    country: 'India',
+    lead_owner: 'Neha Kapoor',
+    crm_status: 'GOOD_LEAD_FOLLOW_UP',
+    crm_note: 'Requested follow up after two weeks.',
+    data_source: 'sarjapur_plots',
+    possession_time: '',
+    description: ''
+  },
+  {
+    created_at: '2026-07-06T00:00:00.000Z',
+    name: 'Olivia Martin',
+    email: 'olivia@gmail.com',
+    country_code: '',
+    mobile_without_country_code: '9876543215',
+    company: 'Vision Tech',
+    city: 'Jaipur',
+    state: 'Rajasthan',
+    country: 'India',
+    lead_owner: 'Rahul Sharma',
+    crm_status: 'GOOD_LEAD_FOLLOW_UP',
+    crm_note: 'Interested in enterprise plan. Wants quotation.',
+    data_source: 'leads_on_demand',
+    possession_time: '',
+    description: ''
+  },
+  {
+    created_at: '2026-07-07T00:00:00.000Z',
+    name: 'James Taylor',
+    email: 'james@gmail.com',
+    country_code: '',
+    mobile_without_country_code: '9876543216',
+    company: 'Pixel Soft',
+    city: 'Chennai',
+    state: 'Tamil Nadu',
+    country: 'India',
+    lead_owner: 'Amit Kumar',
+    crm_status: 'DID_NOT_CONNECT',
+    crm_note: 'Busy now. Reconnect tomorrow.',
+    data_source: 'meridian_tower',
+    possession_time: '',
+    description: ''
+  },
+  {
+    created_at: '2026-07-08T00:00:00.000Z',
+    name: 'Sophia White',
+    email: 'sophia@gmail.com',
+    country_code: '',
+    mobile_without_country_code: '9876543217',
+    company: 'AI Systems',
+    city: 'Kolkata',
+    state: 'West Bengal',
+    country: 'India',
+    lead_owner: 'Priya Singh',
+    crm_status: 'BAD_LEAD',
+    crm_note: 'Not interested anymore.',
+    data_source: 'eden_park',
+    possession_time: '',
+    description: ''
+  },
+  {
+    created_at: '2026-07-09T00:00:00.000Z',
+    name: 'Daniel Lee',
+    email: 'daniel@gmail.com',
+    country_code: '',
+    mobile_without_country_code: '9876543218',
+    company: 'Innova Pvt Ltd',
+    city: 'Ahmedabad',
+    state: 'Gujarat',
+    country: 'India',
+    lead_owner: 'Rahul Sharma',
+    crm_status: 'SALE_DONE',
+    crm_note: 'Customer converted successfully. Onboarding completed.',
+    data_source: 'varah_swamy',
+    possession_time: '',
+    description: ''
+  },
+  {
+    created_at: '2026-07-10T00:00:00.000Z',
+    name: 'Emma Walker',
+    email: 'emma@gmail.com',
+    country_code: '',
+    mobile_without_country_code: '9876543219',
+    company: 'Logic Works',
+    city: 'Kochi',
+    state: 'Kerala',
+    country: 'India',
+    lead_owner: 'Neha Kapoor',
+    crm_status: 'GOOD_LEAD_FOLLOW_UP',
+    crm_note: 'Requested demo after product launch.',
+    data_source: 'sarjapur_plots',
+    possession_time: '',
+    description: ''
+  }
+]
+--------------------------------
+--------------------------------
+Response received from Groq
+--------------------------------
+Batch 1 mapped successfully by AI
+Batch 2/2 (7 records)
+--------------------------------
+Sending batch to Groq...
+Batch Size: 7
+Batch Data:
+[
+  {
+    created_at: '2026-07-11T00:00:00.000Z',
+    name: 'Lucas King',
+    email: '',
+    country_code: '',
+    mobile_without_country_code: '9876543220',
+    company: 'ABC Corp',
+    city: 'Mumbai',
+    state: 'Maharashtra',
+    country: 'India',
+    lead_owner: 'Rahul Sharma',
+    crm_status: 'GOOD_LEAD_FOLLOW_UP',
+    crm_note: 'Interested',
+    data_source: 'leads_on_demand',
+    possession_time: '',
+    description: ''
+  },
+  {
+    created_at: '2026-07-12T00:00:00.000Z',
+    name: '',
+    email: 'alex@gmail.com',
+    country_code: '',
+    mobile_without_country_code: '9876543221',
+    company: 'XYZ Pvt Ltd',
+    city: 'Delhi',
+    state: 'Delhi',
+    country: 'India',
+    lead_owner: 'Amit Kumar',
+    crm_status: 'GOOD_LEAD_FOLLOW_UP',
+    crm_note: 'Call again',
+    data_source: 'meridian_tower',
+    possession_time: '',
+    description: ''
+  },
+  {
+    created_at: '2026-07-13T00:00:00.000Z',
+    name: 'Chris Evans',
+    email: 'chrisgmail.com',
+    country_code: '',
+    mobile_without_country_code: '9876543222',
+    company: 'Alpha Tech',
+    city: 'Pune',
+    state: 'Maharashtra',
+    country: 'India',
+    lead_owner: 'Rahul Sharma',
+    crm_status: 'GOOD_LEAD_FOLLOW_UP',
+    crm_note: 'Interested',
+    data_source: 'eden_park',
+    possession_time: '',
+    description: ''
+  },
+  {
+    created_at: '2026-07-14T00:00:00.000Z',
+    name: 'William Scott',
+    email: 'william@gmail.com',
+    country_code: '',
+    mobile_without_country_code: '12345',
+    company: 'Delta Corp',
+    city: 'Bangalore',
+    state: 'Karnataka',
+    country: 'India',
+    lead_owner: 'Priya Singh',
+    crm_status: 'GOOD_LEAD_FOLLOW_UP',
+    crm_note: 'Follow up',
+    data_source: 'varah_swamy',
+    possession_time: '',
+    description: ''
+  },
+  {
+    created_at: '2026-07-15T00:00:00.000Z',
+    name: 'Ava Harris',
+    email: 'ava@gmail.com',
+    country_code: '',
+    mobile_without_country_code: '9876543223',
+    company: '',
+    city: 'Chennai',
+    state: 'Tamil Nadu',
+    country: 'India',
+    lead_owner: 'Rahul Sharma',
+    crm_status: 'GOOD_LEAD_FOLLOW_UP',
+    crm_note: 'Requested pricing',
+    data_source: 'sarjapur_plots',
+    possession_time: '',
+    description: ''
+  },
+  {
+    created_at: '2026-07-16T00:00:00.000Z',
+    name: 'Mia Lewis',
+    email: 'mia@gmail.com',
+    country_code: '',
+    mobile_without_country_code: '9876543224',
+    company: 'FutureAI',
+    city: 'Hyderabad',
+    state: 'Telangana',
+    country: 'India',
+    lead_owner: 'Neha Kapoor',
+    crm_status: 'GOOD_LEAD_FOLLOW_UP',
+    crm_note: 'Requested demo',
+    data_source: '',
+    possession_time: '',
+    description: ''
+  },
+  {
+    created_at: '2026-07-17T00:00:00.000Z',
+    name: 'Ethan Moore',
+    email: 'ethan@gmail.com',
+    country_code: '',
+    mobile_without_country_code: '9876543225',
+    company: 'CloudNine',
+    city: 'Jaipur',
+    state: 'Rajasthan',
+    country: 'India',
+    lead_owner: 'Amit Kumar',
+    crm_status: 'GOOD_LEAD_FOLLOW_UP',
+    crm_note: 'Interested',
+    data_source: '',
+    possession_time: '',
+    description: ''
+  }
+]
+--------------------------------
+--------------------------------
+Response received from Groq
+--------------------------------
+Batch 2 mapped successfully by AI
+AI Succeeded: 2, Fallback: 0, Total mapped: 17
+====================================
+Processing Completed
+Total Mapped Records : 17
+====================================
+Uploaded CSV deleted successfully.
+====================================
+Total Records   : 20
+Valid Records   : 20
+Invalid Records : 0
+====================================
+Mapping records with AI...
+Processing 2 batch(es) with AI...
+Batch 1/2 (10 records)
+--------------------------------
+Sending batch to Groq...
+Batch Size: 10
+Batch Data:
+[
+  {
+    created_at: '2025-07-01 09:10:00',
+    name: 'Rahul Sharma',
+    email: 'rahul@gmail.com',
+    mobile_without_country_code: 'rahul.office@gmail.com',
+    company: '9876543210',
+    crm_status: 'Infosys',
+    data_source: 'GOOD_LEAD_FOLLOW_UP',
+    _7: 'Website'
+  },
+  {
+    created_at: '2025-07-01 09:20:00',
+    name: 'Priya Singh',
+    email: 'priya@gmail.com',
+    mobile_without_country_code: '9876543211',
+    company: '9988776655',
+    crm_status: 'TCS',
+    data_source: 'SALE_DONE',
+    _7: 'LinkedIn'
+  },
+  {
+    created_at: '2025-07-01 09:30:00',
+    name: 'Amit Kumar',
+    email: 'amit@gmail.com',
+    mobile_without_country_code: 'amit.hr@gmail.com',
+    company: '9876543212',
+    crm_status: '9123456789',
+    data_source: 'Wipro',
+    _7: 'BAD_LEAD',
+    _8: 'Referral'
+  },
+  {
+    created_at: '2025-07-01 09:40:00',
+    name: 'Neha Verma',
+    email: 'neha@gmail.com',
+    mobile_without_country_code: 'neha.work@gmail.com',
+    company: '9876543213',
+    crm_status: '9000011111',
+    data_source: 'Capgemini',
+    _7: 'DID_NOT_CONNECT',
+    _8: 'Website'
+  },
+  {
+    created_at: '2025-07-01 09:50:00',
+    name: 'Karan Mehta',
+    email: 'karan@gmail.com',
+    mobile_without_country_code: 'karan123@gmail.com',
+    company: 'karan.office@gmail.com',
+    crm_status: '9876543214',
+    data_source: 'IBM',
+    _7: 'GOOD_LEAD_FOLLOW_UP',
+    _8: 'Campaign'
+  },
+  {
+    created_at: '2025-07-01 10:00:00',
+    name: 'Sneha Kapoor',
+    email: 'sneha@gmail.com',
+    mobile_without_country_code: '9876543215',
+    company: '9876500000',
+    crm_status: '9999999999',
+    data_source: 'Accenture',
+    _7: 'SALE_DONE',
+    _8: 'Referral'
+  },
+  {
+    created_at: '2025-07-01 10:10:00',
+    name: 'Arjun Gill',
+    email: 'arjun@gmail.com',
+    mobile_without_country_code: 'arjun.hr@gmail.com',
+    company: '9876543216',
+    crm_status: '9876501234',
+    data_source: 'HCL',
+    _7: 'GOOD_LEAD_FOLLOW_UP',
+    _8: 'Website'
+  },
+  {
+    created_at: '2025-07-01 10:20:00',
+    name: 'Simran Kaur',
+    email: 'simran@gmail.com',
+    mobile_without_country_code: 'simran.work@gmail.com',
+    company: '9876543217',
+    crm_status: 'Google',
+    data_source: 'DID_NOT_CONNECT',
+    _7: 'LinkedIn'
+  },
+  {
+    created_at: '2025-07-01 10:30:00',
+    name: 'Rohit Jain',
+    email: 'rohit@gmail.com',
+    mobile_without_country_code: '9876543218',
+    company: '9765432109',
+    crm_status: 'Microsoft',
+    data_source: 'SALE_DONE',
+    _7: 'Campaign'
+  },
+  {
+    created_at: '2025-07-01 10:40:00',
+    name: 'Anjali Sharma',
+    email: 'anjali@gmail.com',
+    mobile_without_country_code: 'anjali.office@gmail.com',
+    company: '9876543219',
+    crm_status: '9998887776',
+    data_source: 'Amazon',
+    _7: 'GOOD_LEAD_FOLLOW_UP',
+    _8: 'Website'
+  }
+]
+--------------------------------
+--------------------------------
+Response received from Groq
+--------------------------------
+Batch 1 mapped successfully by AI
+Batch 2/2 (10 records)
+--------------------------------
+Sending batch to Groq...
+Batch Size: 10
+Batch Data:
+[
+  {
+    created_at: '2025-07-01 10:50:00',
+    name: 'Deepak Arora',
+    email: 'deepak@gmail.com',
+    mobile_without_country_code: 'deepak123@gmail.com',
+    company: '9876543220',
+    crm_status: '9123412345',
+    data_source: 'Oracle',
+    _7: 'BAD_LEAD',
+    _8: 'Referral'
+  },
+  {
+    created_at: '2025-07-01 11:00:00',
+    name: 'Ritika Malhotra',
+    email: 'ritika@gmail.com',
+    mobile_without_country_code: 'ritika.work@gmail.com',
+    company: '9876543221',
+    crm_status: 'Zoho',
+    data_source: 'GOOD_LEAD_FOLLOW_UP',
+    _7: 'Campaign'
+  },
+  {
+    created_at: '2025-07-01 11:10:00',
+    name: 'Manpreet Singh',
+    email: 'manpreet@gmail.com',
+    mobile_without_country_code: '9876543222',
+    company: '9991112223',
+    crm_status: 'Dell',
+    data_source: 'SALE_DONE',
+    _7: 'Website'
+  },
+  {
+    created_at: '2025-07-01 11:20:00',
+    name: 'Sakshi Gupta',
+    email: 'sakshi@gmail.com',
+    mobile_without_country_code: 'sakshi.hr@gmail.com',
+    company: '9876543223',
+    crm_status: '8887776665',
+    data_source: 'Cisco',
+    _7: 'DID_NOT_CONNECT',
+    _8: 'LinkedIn'
+  },
+  {
+    created_at: '2025-07-01 11:30:00',
+    name: 'Nikhil Saini',
+    email: 'nikhil@gmail.com',
+    mobile_without_country_code: 'nikhil.office@gmail.com',
+    company: '9876543224',
+    crm_status: 'Adobe',
+    data_source: 'GOOD_LEAD_FOLLOW_UP',
+    _7: 'Campaign'
+  },
+  {
+    created_at: '2025-07-01 11:40:00',
+    name: 'Harpreet Kaur',
+    email: 'harpreet@gmail.com',
+    mobile_without_country_code: '9876543225',
+    company: '9876509876',
+    crm_status: 'EY',
+    data_source: 'SALE_DONE',
+    _7: 'Website'
+  },
+  {
+    created_at: '2025-07-01 11:50:00',
+    name: 'Ankit Sharma',
+    email: 'ankit@gmail.com',
+    mobile_without_country_code: 'ankit.hr@gmail.com',
+    company: '9876543226',
+    crm_status: '9988123456',
+    data_source: 'PwC',
+    _7: 'BAD_LEAD',
+    _8: 'Referral'
+  },
+  {
+    created_at: '2025-07-01 12:00:00',
+    name: 'Muskan Arora',
+    email: 'muskan@gmail.com',
+    mobile_without_country_code: 'muskan.work@gmail.com',
+    company: '9876543227',
+    crm_status: 'KPMG',
+    data_source: 'GOOD_LEAD_FOLLOW_UP',
+    _7: 'Website'
+  },
+  {
+    created_at: '2025-07-01 12:10:00',
+    name: 'Sahil Bansal',
+    email: 'sahil@gmail.com',
+    mobile_without_country_code: '9876543228',
+    company: '9876511111',
+    crm_status: 'Tech Mahindra',
+    data_source: 'DID_NOT_CONNECT',
+    _7: 'Campaign'
+  },
+  {
+    created_at: '2025-07-01 12:20:00',
+    name: 'Riya Kapoor',
+    email: 'riya@gmail.com',
+    mobile_without_country_code: 'riya.office@gmail.com',
+    company: '9876543229',
+    crm_status: '9988771122',
+    data_source: 'Cognizant',
+    _7: 'SALE_DONE',
+    _8: 'LinkedIn'
+  }
+]
+--------------------------------
+--------------------------------
+Response received from Groq
+--------------------------------
+Batch 2 mapped successfully by AI
+AI Succeeded: 2, Fallback: 0, Total mapped: 20
+====================================
+Processing Completed
+Total Mapped Records : 20
+====================================
+Uploaded CSV deleted successfully.
