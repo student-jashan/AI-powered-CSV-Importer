@@ -12,4 +12,4 @@ RUN mkdir -p uploads
 
 EXPOSE 5000
 
-CMD ["npm", "run", "dev"]
+CMD ["npm", "start"]
