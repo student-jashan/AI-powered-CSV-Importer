@@ -264,21 +264,3 @@ docker-compose up --build
 ```
 
 This starts both frontend (port 3000) and backend (port 5000).
-
-### Individual Docker Builds
-
-Backend:
-```bash
-cd backend
-docker build -t crm-backend .
-docker run -p 5000:5000 --env-file .env crm-backend
-```
-
-Frontend:
-```bash
-cd frontend
-docker build --build-arg NEXT_PUBLIC_API_URL=http://localhost:5000 -t crm-frontend .
-docker run -p 3000:3000 crm-frontend
-```
-
-ISC
